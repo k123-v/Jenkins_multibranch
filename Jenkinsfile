@@ -3,7 +3,7 @@ pipeline {
     
 
     stages {
-        stage ("git required for doing testing in master") {
+        stage ("git required for doing testing in master now") {
             steps {
                 git 'https://github.com/k123-v/Apr-Project.git'
             }
