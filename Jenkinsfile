@@ -3,7 +3,7 @@ pipeline {
     
 
     stages {
-        stage ("git required for doing testing in loans ") {
+        stage ("git required for doing testing in loans branch") {
             steps {
                 git 'https://github.com/k123-v/Apr-Project.git'
             }
