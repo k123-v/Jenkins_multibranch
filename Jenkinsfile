@@ -11,7 +11,7 @@ pipeline {
         
         stage("Connect to mvn and doing testing in master branch") {
             steps {
-                sh 'echo "welcome to testing in master branch"'                  
+                sh 'echo "welcome to testing in master"'                  
             }
         }
 
